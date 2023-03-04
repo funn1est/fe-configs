@@ -1,0 +1,14 @@
+{
+  "name": "@f1t/configs",
+  "version": "0.1.0",
+  "description": "frontend configs",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/funn1est/fe-configs.git"
+  },
+  "author": "FuNn1esT <admin@f1t.io>",
+  "license": "MIT",
+  "files": [
+    "prettier.json"
+  ]
+}
