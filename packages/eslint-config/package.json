@@ -1,6 +1,6 @@
 {
   "name": "@f1t/eslint-config",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "ESLint config",
   "main": "index.js",
   "author": "FuNn1esT <admin@f1t.io>",
@@ -9,11 +9,16 @@
     "eslint",
     "eslintconfig"
   ],
-  "devDependencies": {
-    "eslint": "^8.54.0",
+  "dependencies": {
     "eslint-config-airbnb": "^19.0.4"
+  },
+  "devDependencies": {
+    "eslint": "^8.54.0"
   },
   "peerDependencies": {
     "eslint": ">=8.0.0"
+  },
+  "publishConfig": {
+    "access": "public"
   }
 }

@@ -1,6 +1,6 @@
 {
   "name": "@f1t/eslint-config-react",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "ESLint config for React",
   "main": "index.js",
   "author": "FuNn1esT <admin@f1t.io>",
@@ -9,10 +9,13 @@
     "eslint",
     "eslintconfig"
   ],
-  "devDependencies": {
+  "dependencies": {
     "@f1t/eslint-config": "workspace:*"
   },
   "peerDependencies": {
     "eslint": ">=8.0.0"
+  },
+  "publishConfig": {
+    "access": "public"
   }
 }
