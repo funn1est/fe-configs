@@ -1,6 +1,6 @@
 {
   "name": "@f1t/eslint-config",
-  "version": "0.1.1",
+  "version": "0.2.0",
   "description": "ESLint config",
   "main": "index.js",
   "author": "FuNn1esT <admin@f1t.io>",
@@ -10,7 +10,10 @@
     "eslintconfig"
   ],
   "dependencies": {
-    "eslint-config-airbnb": "^19.0.4"
+    "@typescript-eslint/eslint-plugin": "^6.12.0",
+    "@typescript-eslint/parser": "^6.12.0",
+    "eslint-config-prettier": "^9.0.0",
+    "eslint-plugin-prettier": "^5.0.1"
   },
   "devDependencies": {
     "eslint": "^8.54.0"

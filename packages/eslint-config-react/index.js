@@ -1,4 +1,9 @@
 /** @type {import('eslint').Linter.Config} */
 module.exports = {
-  extends: ['@f1t/eslint-config'],
+  env: {
+    browser: true,
+    es2021: true,
+  },
+  extends: ['plugin:prettier/recommended', '@f1t/eslint-config'],
+  plugins: ['react', 'react-hooks'],
 };
